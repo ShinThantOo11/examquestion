@@ -36,10 +36,14 @@
 ::-webkit-scrollbar-thumb {
   background: #309986;
 }
-.exam-list {
-  height: 75vh;
-  overflow-y: scroll;
+.count-down{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: black;
+  border-radius: 10px;
 }
+
 .contact {
   background-color: #309986;
 }
@@ -50,4 +54,7 @@ input:checked{
   background-color: #309986 !important;
   box-shadow: none !important;
 }
-
+.card{
+  min-width: 320px;
+  max-width: 750px;
+}

@@ -33,6 +33,12 @@
         </div>
         <!-- time remaing end  -->
 
+        <!-- countdown start  -->
+        <div class="count-down px-3 py-2 bg-danger hidden" id="displayDiv">
+            
+        </div>
+        <!-- countdown end  -->
+
         <!-- nav start  -->
         <!-- nav end  -->
         
@@ -49,16 +55,15 @@
                         </ol>
                       </nav>
                 </div>
-                <small id="displayDiv" class="text-danger fw-bold hidden"></small>
-                <div class="">
+                <div class="col-12 text-end">
                     <span class="fw-bold question-no text-success"></span>
                 </div>
             </div>
 
          <form action="">    
-            <div class="exam-list mt-3 d-flex justify-content-around  flex-wrap shadow-sm pt-3 pb-5 question-box">
+            <div class="exam-list mt-3 py-3 question-box">
                 
-                <div class="col-12 col-lg-5 mt-3 question">
+                <div class="col-12 d-flex justify-content-center mt-3 question">
                     <div class="card border-0">
                         <div class="card-body text-dark">
                             <small class="fw-bold text-success question-no">Question No. 01</small>
@@ -99,12 +104,12 @@
                     </div>
                 </div>
                
-                <div class="col-12 col-lg-5 mt-3 question">
+                <div class="col-12 d-flex justify-content-center mt-3 question">
                     <div class="card border-0">
                         <div class="card-body text-dark">
                             <small class="fw-bold text-success">Question No. 02</small>
                             <div class="mb-3"></div>
-                            <img src="https://www.examsolutions.net/wp-content/uploads/2021/04/Girl-image.jpg" alt="error404" class="img-fluid">
+                            <img src="https://www.examsolutions.net/wp-content/uploads/2021/04/Girl-image.jpg" alt="error404" class="img-fluid w-100">
                             <div class="mt-3">
                                 <h5 class="">Description</h5>
                                 <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum maiores dolore corrupti quos necessitatibus </p>
@@ -123,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5 mt-3 question">
+                <div class="col-12 d-flex justify-content-center mt-3 question">
                     <div class="card border-0">
                         <div class="card-body text-dark">
                             <small class="fw-bold text-success">Question No. 03</small>
@@ -165,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5 mt-3 question">
+                <div class="col-12 d-flex justify-content-center mt-3 question">
                     <div class="card border-0">
                         <div class="card-body text-dark">
                             <small class="fw-bold text-success">Question No. 04</small>
@@ -206,8 +211,10 @@
                 </div>
             </div>
         
-            <div class="submit-btn-container mt-3 d-flex justify-content-end">
-                <input type="submit" id="submit" value="Submit" class="bg-success text-white border-0 rounded px-2">
+            <div class="submit-btn-container mt-3">
+                <div class="d-flex justify-content-end mx-auto" style="min-width: 320px;max-width: 750px;">
+                    <input type="submit" id="submit" value="Submit" class="bg-success text-white border-0 rounded px-2">
+                </div>
             </div>
         </form>
         </section>
