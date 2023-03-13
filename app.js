@@ -1,6 +1,6 @@
 
 // alert countdown 
-var deadline = new Date("Mar 12, 2023 15:37:25").getTime();
+var deadline = new Date("Mar 14, 2023 15:37:25").getTime();
 var x = setInterval(function () {
   var now = new Date().getTime();
   var t = deadline - now;

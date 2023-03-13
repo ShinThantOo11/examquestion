@@ -42,6 +42,7 @@
   right: 10px;
   background: black;
   border-radius: 10px;
+  z-index: 199;
 }
 
 .contact {
